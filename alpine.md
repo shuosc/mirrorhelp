@@ -25,5 +25,12 @@ Alpine Linux 软件源
 sed -i 's/dl-cdn.alpinelinux.org/mirrors.shuosc.org/g' /etc/apk/repositories
 ```
 
+也可以直接编辑 `/etc/apk/repositories` 文件。以下是 v3.5 版本的参考配置：
+
+```bash
+https://mirrors.shuosc.org/alpine/v3.5/main
+https://mirrors.shuosc.org/alpine/v3.5/community
+```
+
 
 
