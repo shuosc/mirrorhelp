@@ -21,10 +21,8 @@ Alpine Linux 软件源
 
 可以使用如下命令：
 
-```
-
+```bash
 sed -i 's/dl-cdn.alpinelinux.org/mirrors.shuosc.org/g' /etc/apk/repositories
-
 ```
 
 
