@@ -2,4 +2,35 @@
 
 * [Introduction](README.md)
 * [ubuntu](ubuntu.md)
+* [alpine](alpine.md)
+* [anaconda](anaconda.md)
+* [apache](apache.md)
+* [archlinux](archlinux.md)
+* [brew](brew.md)
+* [centos](centos.md)
+* cran
+* ctan
+* deb-multimedia
+* debian
+* docker-ce
+* gentoo
+* homebrew-bottles
+* homebrew-cask
+* homebrew-core
+* kali
+* mariadb
+* mongodb
+* npm
+* opensuse
+* pritunl
+* pypi
+* repoforge
+* rubygems
+* zabbix
+* mariadb
+* mongodb
+* ruby
+* deepin
+* postgresql
+* zerotier
 
