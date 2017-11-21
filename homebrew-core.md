@@ -2,7 +2,7 @@
 
 ### 地址 
 
-https://git.shuosc.cn/Homebrew/homebrew-core
+https://git.shuosc.org/Homebrew/homebrew-core
 
 ### 说明 
 

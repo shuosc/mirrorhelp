@@ -2,7 +2,7 @@
 
 ###  地址
 
-https://git.shuosc.cn/caskroom/homebrew-cask
+https://git.shuosc.org/caskroom/homebrew-cask
 
 ### 说明 
 

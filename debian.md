@@ -23,7 +23,7 @@ https://mirrors.shuosc.org/debian/
 > 提示：操作前请做好相应备份
 
 
-一般情况下，将 `/etc/apt/sources.list` 文件中 **Debian** 默认的源地址 http://httpredir.debian.org/替换为 http://mirrors.shuosc.org 即可。
+一般情况下，将 `/etc/apt/sources.list` 文件中 **Debian** 默认的源地址 http://httpredir.debian.org/ 替换为 http://mirrors.shuosc.org 即可。
 
 可以使用如下命令：
 

@@ -2,7 +2,7 @@
 
 ###  地址 
 
-https://git.shuosc.cn/Homebrew/brew
+https://git.shuosc.org/Homebrew/brew
 
 ###  说明
 
