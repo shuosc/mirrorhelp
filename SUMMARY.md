@@ -28,8 +28,8 @@
 * [rubygems源使用帮助](rubygems.md)
 * [zabbix源使用帮助](zabbix.md)
 * [ruby源使用帮助](ruby.md)
-* [deepin源使用帮助](deepin.md)
 * [postgresql源使用帮助](postgresql.md)
+* [pritunl源使用帮助](pritunl.md)
 * [zabbix源使用帮助](zabbix.md)
 * [zerotier源使用帮助](zerotier.md)
 
