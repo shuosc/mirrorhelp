@@ -21,6 +21,7 @@
 ## 语言镜像
 - [Pypi 源使用帮助](pypi.html)
 - [Rubygems 源使用帮助](rubygems.html)
+- [CPAN 源使用帮助](cpan.html)
 - [CRAN 源使用帮助](cran.html)
 - [CTAN 源使用帮助](ctan.html)
 - [Node 源使用帮助](node.html)
