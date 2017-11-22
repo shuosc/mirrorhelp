@@ -16,7 +16,7 @@ Virtualbox 是一款开源虚拟机软件，原来是由Sun Microsystems 公司�
 
 #### Linux安装
 
-建议通过包管理器安装
+一种方法是在镜像站主页使用快速下载工具选择下载安装（建议），另一种方法是通过包管理器安装（目前尝试该方式有点小毛病）
 
 - Debian/Ubuntu 用户
 
@@ -30,12 +30,12 @@ wget -q https://mirrors.shuosc.org/virtualbox/debian/oracle_vbox.asc -O- | sudo 
 ```
 再以 `Ubuntu 16.04 LTS` 为例，将文本框中内容写进`/etc/apt/sources.list.d/virtualbox.list`
 ```bash
-deb https://mirrors.tuna.tsinghua.edu.cn/virtualbox/apt/ xenial contrib
+deb https://mirrors.shuosc.org/virtualbox/debian/ xenial contrib
 ```
 安装 VirtualBox:
 ```bash
 sudo apt-get update
-sudo apt-get install virtualbox-5.2
+sudo apt-get install virtualbox
 ```
 
 - RHEL/CentOS 用户
@@ -51,7 +51,7 @@ enabled=1
 刷新缓存并安装 `virtualbox` 即可。
 ```bash
 sudo yum makecache
-sudo yum install VirtualBox-5.2
+sudo yum install VirtualBox
 ```
 
 ### 相关链接
