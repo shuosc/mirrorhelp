@@ -28,6 +28,7 @@ https://mirrors.shuosc.org/node
 
 > 由于目前镜像站的硬盘容量不足，原CNPM镜像站暂停服务，等到空间充足时再行恢复。在此期间，建议转至 https://npm.taobao.org 提供的NPM加速服务
 
+
 ### 相关链接
 
 - 官方主页：https://nodejs.org

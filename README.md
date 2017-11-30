@@ -2,16 +2,20 @@
 
 本文档由[@zhonger](https://github.com/zhonger)、[@mustard](https://github.com/wxmustard)重新整理而成，有部分文档尚未完善。本文档大部分借鉴于[USTC@LUG](http://mirrors.ustc.edu.cn/help/) && [TUNA](https://mirrors.tuna.tsinghua.edu.cn/help/)，在此特别声明。
 
-## 发行版镜像
+## 操作系统镜像
 
 - [Alpine Linux 源使用帮助](alpine.html)
+- [AOSC Linux 源使用帮助](anthon.html)
 - [Arch Linux 源使用帮助](archlinux.html)
 - [Arch Linux CN 源使用帮助](archlinuxcn.html)
 - [CentOS 源使用帮助](centos.html)
 - [Debian 源使用帮助](debian.html)
 - [Deb Multimedia 源使用帮助](deb-multimedia.html)
+- [epel 源使用帮助](epel.html)
+- [Fedora 源使用帮助](fedora.html)
 - [Gentoo 源使用帮助](gentoo.html)
 - [Kali Linux源使用帮助](kali.html)
+- [Linux mint 源使用帮助](linuxmint.html)
 - [Manjaro Linux源使用帮助](manjaro.html)
 - [openSUSE 源使用帮助](opensuse.html)
 - [Raspbian 源使用帮助](raspbian.html)
