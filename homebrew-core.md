@@ -14,7 +14,7 @@ Homebrew-core镜像
 
 ```bash
 cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-git remote set-url origin https://git.shuosc.cn/Homebrew/homebrew-core.git
+git remote set-url origin https://git.shuosc.org/Homebrew/homebrew-core.git
 ```
 
 * 重置为官方上游 
