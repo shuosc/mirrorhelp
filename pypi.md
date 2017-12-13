@@ -20,6 +20,5 @@ format = columns
 
 ### 相关链接 
 
-- PyPI Official Mirrors: https://pypi.python.org/mirrors
-- PEP-381 Mirroring Protocol: http://www.python.org/dev/peps/pep-0381/
+- PyPI Official Mirrors: https://pypi.python.org/
 - bandersnatch: https://pypi.python.org/pypi/bandersnatch
