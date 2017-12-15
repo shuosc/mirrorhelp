@@ -2,7 +2,7 @@
 
 > 如何使用上海大学开源镜像站 加速 pip？
 
-编辑 `~/.pip/pip.conf` 文件（如果没有则创建之），将 `index-url `开头的一行修改为下面一行：
+编辑 `~/.pip/pip.conf` 文件（如果没有则创建之），将 `index-url `开头的一行修改为下面一行：(Windows配置文件位置为`~/.pip/pip.ini`,Mac配置文件位置为`~/.pip.pip.conf`)
 
 ```bash
 [global]
@@ -20,5 +20,6 @@ format = columns
 
 ### 相关链接 
 
-- PyPI Official Mirrors: https://pypi.python.org/
+- Python Package Index Search: https://pypi.org/
+- pip: https://pip.pypa.io/
 - bandersnatch: https://pypi.python.org/pypi/bandersnatch
