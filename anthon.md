@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shuosc.org/anthon
+https://mirrors.shu.edu.cn/anthon
 
 
 ### 说明
@@ -42,8 +42,8 @@ AOSC OS 内置 ``apt-gen-list`` 工具来开关镜像源。要使用 USTC 源，
 当然，也可以直接编辑 `/etc/apt/sources.list` 文件。对于任一架构 `${ARCH}`，需要在 `/etc/apt/sources.list` 中同时写入：
 
 ```bash
-  deb https://mirrors.shuosc.org/anthon/os-${ARCH}/os3-dpkg/ /
-  deb https://mirrors.shuosc.org/anthon/os-noarch/os3-dpkg/ /
+  deb https://mirrors.shu.edu.cn/anthon/os-${ARCH}/os3-dpkg/ /
+  deb https://mirrors.shu.edu.cn/anthon/os-noarch/os3-dpkg/ /
 ```
 
 其中 `${ARCH}` 可以是：

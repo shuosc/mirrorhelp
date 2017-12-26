@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shuosc.org/repoforge
+https://mirrors.shu.edu.cn/repoforge
 
 ### 说明
 
@@ -16,7 +16,7 @@ https://mirrors.shuosc.org/repoforge
 向系统中添加 **Repoforge** 的 **GPG 公钥**：
 
 ```bash
-rpm --import https://mirrors.shuosc.org/repoforge/RPM-GPG-KEY.dag.txt
+rpm --import https://mirrors.shu.edu.cn/repoforge/RPM-GPG-KEY.dag.txt
 ```
 
 运行下列命令：
@@ -25,7 +25,7 @@ rpm --import https://mirrors.shuosc.org/repoforge/RPM-GPG-KEY.dag.txt
 sudo cat > /etc/yum.repos.d/rpmforge.repo << EOF
 [rpmforge]
 name = RHEL $releasever - RPMforge.net - dag
-baseurl = https://mirrors.shuosc.org/repoforge/redhat/el7/en/$basearch/rpmforge
+baseurl = https://mirrors.shu.edu.cn/repoforge/redhat/el7/en/$basearch/rpmforge
 mirrorlist = http://mirrorlist.repoforge.org/el7/mirrors-rpmforge
 enabled = 1
 protect = 0
@@ -34,7 +34,7 @@ gpgcheck = 1
 
 [rpmforge-extras]
 name = RHEL $releasever - RPMforge.net - extras
-baseurl = https://mirrors.shuosc.org/repoforge/redhat/el7/en/$basearch/extras
+baseurl = https://mirrors.shu.edu.cn/repoforge/redhat/el7/en/$basearch/extras
 mirrorlist = http://mirrorlist.repoforge.org/el7/mirrors-rpmforge-extras
 enabled = 0
 protect = 0
@@ -43,7 +43,7 @@ gpgcheck = 1
 
 [rpmforge-testing]
 name = RHEL $releasever - RPMforge.net - testing
-baseurl = https://mirrors.shuosc.org/repoforge/redhat/el7/en/$basearch/testing
+baseurl = https://mirrors.shu.edu.cn/repoforge/redhat/el7/en/$basearch/testing
 mirrorlist = http://mirrorlist.repoforge.org/el7/mirrors-rpmforge-testing
 enabled = 0  
 protect = 0

@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shuosc.org/archlinuxcn
+https://mirrors.shu.edu.cn/archlinuxcn
 
 ### 说明
 
@@ -14,7 +14,7 @@ Arch Linux中文社区仓库是由Arch Linux中文社区驱动的非官方用户
 
 ```bash
 [archlinuxcn]
-Server = https://mirrors.shuosc.org/archlinuxcn/$arch
+Server = https://mirrors.shu.edu.cn/archlinuxcn/$arch
 ```
 
 之后安装`archlinux-keyring`包导入GPG key。

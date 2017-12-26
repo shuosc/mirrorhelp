@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shuosc.org/CPAN
+https://mirrors.shu.edu.cn/CPAN
 
 ### 说明
 
@@ -18,11 +18,11 @@ Would you like to configure as much as possible automatically? [yes]
 ```bash
 Would you like to pick from the CPAN mirror list? [yes] 
 ```
-此处直接回车，在列表中选择`Asia`、`China`、`http://mirrors.shuosc.org/CPAN/`
+此处直接回车，在列表中选择`Asia`、`China`、`http://mirrors.shu.edu.cn/CPAN/`
 
 如果你已经使用过CPAN了，那么直接修改`~/.cpan/CPAN/MyConfig.pm`中的`urllist`的值为
 ```bash
-'urllist' => [q[http://mirrors.shuosc.org/CPAN/]],
+'urllist' => [q[http://mirrors.shu.edu.cn/CPAN/]],
 ```
 
 

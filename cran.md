@@ -5,7 +5,7 @@
 在文末添加如下语句:
 
 ```bash
-options("repos" = c(CRAN="https://mirrors.shuosc.org/CRAN/"))
+options("repos" = c(CRAN="https://mirrors.shu.edu.cn/CRAN/"))
 ```
 
 打开 R 即可使用该 `CRAN `镜像源安装 R 软件包。

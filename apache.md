@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shuosc.org/apache/
+https://mirrors.shu.edu.cn/apache/
 
 ### 说明
 

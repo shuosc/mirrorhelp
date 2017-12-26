@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shuosc.org/archlinux/
+https://mirrors.shu.edu.cn/archlinux/
 
 ### 说明 
 
@@ -17,7 +17,7 @@ Arch Linux 软件源
 
 编辑 `/etc/pacman.d/mirrorlist` ，在文件的最顶端添加
 
-    Server = https://mirrors.shuosc.org/archlinux/$repo/os/$arch
+    Server = https://mirrors.shu.edu.cn/archlinux/$repo/os/$arch
 ### 相关链接 
 
   * 官方主页: https://www.archlinux.org/

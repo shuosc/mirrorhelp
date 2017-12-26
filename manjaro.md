@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shuosc.org/manjaro
+https://mirrors.shu.edu.cn/manjaro
 
 ### 说明
 
@@ -25,7 +25,7 @@ i686,x86_64
 ```bash
 sudo pacman-mirrors -i -c China -m rank
 ```
-勾选`https://mirrors.shuosc.org/manjaro/`，然后按`OK`键两次。
+勾选`https://mirrors.shu.edu.cn/manjaro/`，然后按`OK`键两次。
 
 最后刷新缓存：
 ```bash

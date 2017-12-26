@@ -2,7 +2,7 @@
 
 ### 地址 
 
-https://mirrors.shuosc.org/gentoo/
+https://mirrors.shu.edu.cn/gentoo/
 
 ### 说明 
 
@@ -17,7 +17,7 @@ ALL
 在`/etc/portage/make.conf`中添加或修改：
 
 ```bash
-GENTOO_MIRRORS="https://mirrors.shuosc.org/gentoo/"
+GENTOO_MIRRORS="https://mirrors.shu.edu.cn/gentoo/"
 ```
 
 ### 相关链接

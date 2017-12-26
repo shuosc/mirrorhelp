@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shuosc.org/mariadb/
+https://mirrors.shu.edu.cn/mariadb/
 
 ### 收录架构
 
@@ -21,19 +21,19 @@ https://mirrors.shuosc.org/mariadb/
 然后执行以下命令替换源地址：
 
 ```bash
-sudo sed -i 's#yum.mariadb.org#mirrors.shuosc.org/mariadb/yum#' /etc/yum.repos.d/mariadb
+sudo sed -i 's#yum.mariadb.org#mirrors.shu.edu.cn/mariadb/yum#' /etc/yum.repos.d/mariadb
 ```
 
 > 建议使用 HTTPS
 
 ```bash
-sudo sed -i 's#http://mirrors.shuosc.org#https://mirrors.shuosc.org#g' /etc/yum.repos.d/mariadb
+sudo sed -i 's#http://mirrors.shu.edu.cn#https://mirrors.shu.edu.cn#g' /etc/yum.repos.d/mariadb
 ```
 
 - Mint, Ubuntu, Debian
 
 1. 使用[MariaDB Repository Configuration Tool](https://downloads.mariadb.org/mariadb/repositories)生成要执行的命令（Mirror 选择 Babylon Network - NL）
-2. 将 ``add-apt-repository`` 命令中的http://nl.mirror.babylon.network替换为 https://mirrors.shuosc.org
+2. 将 ``add-apt-repository`` 命令中的http://nl.mirror.babylon.network替换为 https://mirrors.shu.edu.cn
 3. 执行命令
 
 ### 相关链接 

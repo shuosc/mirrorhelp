@@ -2,7 +2,7 @@
 
 ###  地址 
 
-https://mirrors.shuosc.org/homebrew-bottles/
+https://mirrors.shu.edu.cn/homebrew-bottles/
 
 ### 说明 
 
@@ -20,16 +20,16 @@ https://mirrors.shuosc.org/homebrew-bottles/
 
 ### 使用说明 
 
-请在运行 **brew** 前设置环境变量 ``HOMEBREW_BOTTLE_DOMAIN`` ，值为 https://mirrors.shuosc.org/homebrew-bottles。
+请在运行 **brew** 前设置环境变量 ``HOMEBREW_BOTTLE_DOMAIN`` ，值为 https://mirrors.shu.edu.cn/homebrew-bottles。
 
 对于 bash 用户：
 
-    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.shuosc.org/homebrew-bottles' >> ~/.bash_profile
+    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.shu.edu.cn/homebrew-bottles' >> ~/.bash_profile
     source ~/.bash_profile
 
 对于 zsh 用户：
 
-    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.shuosc.org/homebrew-bottles' >> ~/.zshrc
+    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.shu.edu.cn/homebrew-bottles' >> ~/.zshrc
     source ~/.zshrc
 
 ###相关链接 

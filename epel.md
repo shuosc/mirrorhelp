@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shuosc.org/epel/
+https://mirrors.shu.edu.cn/epel/
 
 ### 说明
 
@@ -24,7 +24,7 @@ EPEL (Extra Packages for Enterprise Linux) 是由 Fedora Special Interest Group 
   sudo yum install -y epel-release
   sudo sed -e 's!^mirrorlist=!#mirrorlist=!g' \
            -e 's!^#baseurl=!baseurl=!g' \
-           -e 's!//download\.fedoraproject\.org/pub!//mirrors.shuosc.org!g' \
+           -e 's!//download\.fedoraproject\.org/pub!//mirrors.shu.edu.cn!g' \
            -e 's!http://mirrors\.shuosc!https://mirrors.shuosc!g' \
            -i /etc/yum.repos.d/epel.repo /etc/yum.repos.d/epel-testing.repo
 ```

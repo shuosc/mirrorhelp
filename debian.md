@@ -2,7 +2,7 @@
 
 ### 地址 
 
-https://mirrors.shuosc.org/debian/
+https://mirrors.shu.edu.cn/debian/
 
 ### 说明 
 
@@ -23,23 +23,23 @@ https://mirrors.shuosc.org/debian/
 > 提示：操作前请做好相应备份
 
 
-一般情况下，将 `/etc/apt/sources.list` 文件中 **Debian** 默认的源地址 http://httpredir.debian.org/ 替换为 http://mirrors.shuosc.org 即可。
+一般情况下，将 `/etc/apt/sources.list` 文件中 **Debian** 默认的源地址 http://httpredir.debian.org/ 替换为 http://mirrors.shu.edu.cn 即可。
 
 可以使用如下命令：
 
 ```bash
-sudo sed -i 's/httpredir.debian.org/mirrors.shuosc.org/g' /etc/apt/sources.list
+sudo sed -i 's/httpredir.debian.org/mirrors.shu.edu.cn/g' /etc/apt/sources.list
 ```
 
 当然也可以直接编辑 `/etc/apt/sources.list` 文件（需要使用` sudo`）。以下是 **Debian Stable** 参考配置内容：
 
-    deb http://mirrors.shuosc.org/debian stable main contrib non-free
-    # deb-src http://mirrors.shuosc.org/debian stable main contrib non-free
-    deb http://mirrors.shuosc.org/debian stable-updates main contrib non-free
-    # deb-src http://mirrors.shuosc.org/debian stable-updates main contrib non-free
+    deb http://mirrors.shu.edu.cn/debian stable main contrib non-free
+    # deb-src http://mirrors.shu.edu.cn/debian stable main contrib non-free
+    deb http://mirrors.shu.edu.cn/debian stable-updates main contrib non-free
+    # deb-src http://mirrors.shu.edu.cn/debian stable-updates main contrib non-free
     
-    # deb http://mirrors.shuosc.org/debian stable-proposed-updates main contrib non-free
-    # deb-src http://mirrors.shuosc.org/debian stable-proposed-updates main contrib non-free
+    # deb http://mirrors.shu.edu.cn/debian stable-proposed-updates main contrib non-free
+    # deb-src http://mirrors.shu.edu.cn/debian stable-proposed-updates main contrib non-free
 
 同时你也可能需要更改 **Debian Security** 源，请参考`debian-security`
 
