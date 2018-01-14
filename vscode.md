@@ -25,7 +25,7 @@ sudo apt-get install code # or code-insiders
 
 ```bash
 sudo rpm --import https://mirrors.shu.edu.cn/vscode/keys/microsoft.asc
-sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://mirrors.shu.edu.cn/vscode/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://mirrors.shu.edu.cn/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://mirrors.shu.edu.cn/vscode/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://mirrors.shu.edu.cn/vscode/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
 
 # 使用dnf管理工具的执行下面命令安装vscode
 dnf check-update
@@ -40,7 +40,7 @@ sudo yum install code
 
 ```bash
 sudo rpm --import https://mirrors.shu.edu.cn/vscode/keys/microsoft.asc
-sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://mirrors.shu.edu.cn/vscode/yumrepos/vscode\nenabled=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://mirrors.shu.edu.cn/keys/microsoft.asc" > /etc/zypp/repos.d/vscode.repo'
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://mirrors.shu.edu.cn/vscode/yumrepos/vscode\nenabled=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://mirrors.shu.edu.cn/vscode/keys/microsoft.asc" > /etc/zypp/repos.d/vscode.repo'
 sudo zypper refresh
 sudo zypper install code
 ```
