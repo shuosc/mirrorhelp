@@ -20,9 +20,9 @@ gem sources -a https://mirrors.shu.edu.cn/rubygems/  #添加上大源
 
 - 针对使用 Gemfile 和 Bundle 的项目
 
-  ```bash
+```bash
 bundle config mirror.https://rubygems.org https://mirrors.shu.edu.cn/rubygems/
-  ```
+```
 
 ### 相关链接
 
