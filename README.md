@@ -46,6 +46,7 @@
 - [PostgreSQL 源使用帮助](postgresql.html)
 - [Pritunl 源使用帮助](pritunl.html)
 - [Virtualbox 源使用帮助](virtualbox.html)
+- [Vscode 源使用帮助](vscode.html)
 - [Zabbix 源使用帮助](zabbix.html)
 - [Zerotier 源使用帮助](zerotier.html)
 

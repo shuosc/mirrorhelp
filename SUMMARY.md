@@ -40,6 +40,7 @@
 * [Rubygems 源使用帮助](rubygems.md)
 * [Ubuntu 源使用帮助](ubuntu.md)
 * [Virutalbox 源使用帮助](virtualbox.md)
+* [Vscode 源使用帮助](vscode.md)
 * [Zabbix 源使用帮助](zabbix.md)
 * [Zerotier 源使用帮助](zerotier.md)
 
