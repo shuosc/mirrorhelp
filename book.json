@@ -1,5 +1,5 @@
 {
-    "title": "上海大学开源社区镜像源使用帮助",
+    "title": "上海大学开源镜像源使用帮助",
     "description": "用于帮助用户更好地使用上海大学开源镜像站的镜像源",
     "author": "shuosc",
     "output.name": "site",
@@ -11,7 +11,7 @@
     },
     "links": {
         "sidebar": {
-            "镜像站": "https://mirrors.shuosc.org"
+            "镜像站": "https://mirrors.shu.edu.cn"
         }
     },
     "plugins": [
