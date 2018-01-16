@@ -38,6 +38,7 @@
 * [Repoforge 源使用帮助](repoforge.md)
 * [Ruby 源使用帮助](ruby.md)
 * [Rubygems 源使用帮助](rubygems.md)
+* [saltstack 源使用帮助](saltstack.md)
 * [Ubuntu 源使用帮助](ubuntu.md)
 * [Virutalbox 源使用帮助](virtualbox.md)
 * [Vscode 源使用帮助](vscode.md)
