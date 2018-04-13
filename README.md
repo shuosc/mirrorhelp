@@ -35,6 +35,7 @@
 - [Anaconda 源使用帮助](anaconda.html)
 - [Apache 源使用帮助](apache.html)
 - [Homebrew 源使用帮助](homebrew.html)
+- [CocoaPods 源使用帮助](cocoapods.html)
 - [Docker CE 源使用帮助](docker-ce.html)
 - [Homebrew 源使用帮助](homebrew.html)
 - [Homebrew Bottles 源使用帮助](homebrew-bottles.html)

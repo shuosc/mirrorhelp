@@ -8,6 +8,7 @@
 * [Arch Linux 源使用帮助](archlinux.md)
 * [Arch Linux CN 源使用帮助](archlinuxcn.md)
 * [CentOS 源使用帮助](centos.md)
+* [CocoaPods 源使用帮助](cocoapods.md)
 * [CPAN 源使用帮助](cpan.md)
 * [CRAN 源使用帮助](cran.md)
 * [CTAN 源使用帮助](ctan.md)
