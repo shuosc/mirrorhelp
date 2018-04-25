@@ -3,7 +3,7 @@
 ###  地址 
 
 - https://mirrors.shu.edu.cn/brew （仅HTTP/HTTPS访问，不支持git拉取）
-- https://mirrors.shu.edu.cn/git/brew (仅git访问)
+- https://mirrors.shu.edu.cn/mgit/brew (仅git访问)
 - https://git.shuosc.org/Homebrew/brew （均支持）
 
 ###  说明
@@ -19,7 +19,7 @@ Homebrew镜像
 ```bash
 # 替换现有上游
 cd "$(brew --repo)"
-git remote set-url origin https://mirrors.shu.edu.cn/git/brew
+git remote set-url origin https://mirrors.shu.edu.cn/mgit/brew
 ```
 
 #### 方式二：使用 Gitlab 仓库镜像
