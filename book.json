@@ -135,8 +135,8 @@
             "tag": "b"
         },
         "favicon": {
-            "shortcut": "/favicon.ico",
-            "bookmark": "/favicon.ico"
+            "shortcut": "favicon.ico",
+            "bookmark": "favicon.ico"
         },
         "terminal": {
             "copyButtons": true,
