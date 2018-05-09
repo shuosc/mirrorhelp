@@ -19,7 +19,7 @@ curl -fsSL https://mirrors.shu.edu.cn/docker-ce/linux/debian/gpg | sudo apt-key 
 对于**amd64**架构的计算机，添加软件仓库：
 ```bash
 sudo add-apt-repository \ 
-        "deb [arch=amd64] https://mirrors.shu.edu.cn/docker-ce/linux/debian" \
+        "deb [arch=amd64] https://mirrors.shu.edu.cn/docker-ce/linux/debian \
         $(lsb_release -cs) \
         stable"
 ```
