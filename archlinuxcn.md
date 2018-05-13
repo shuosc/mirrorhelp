@@ -17,9 +17,9 @@ Arch Linux中文社区仓库是由Arch Linux中文社区驱动的非官方用户
 Server = https://mirrors.shu.edu.cn/archlinuxcn/$arch
 ```
 
-之后安装`archlinux-keyring`包导入GPG key。
+之后安装`archlinuxcn-keyring`包导入GPG key。
 
 ### 相关链接
 
-- 官方主页：http://www.archlinuxcn.org/
-- 官方仓库地址：http://repo.archlinuxcn.org
+- 官方主页：https://www.archlinuxcn.org/
+- 官方仓库地址：https://repo.archlinuxcn.org
