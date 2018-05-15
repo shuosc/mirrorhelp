@@ -12,9 +12,7 @@ ALL
 
 - 自动更改配置文件
 
- ```bash
-curl https://git.shuosc.org/snippets/1/raw | sudo sh
- ```
+暂不可用
 
 - 手动更改配置文件
 
