@@ -22,7 +22,7 @@ cd "$(brew --repo)"
 git remote set-url origin https://mirrors.shu.edu.cn/mgit/brew
 ```
 
-#### 方式二：使用 Gitlab 仓库镜像
+#### 方式二：使用 Gitlab 仓库镜像 (已废弃)
 
 ```bash
 # 替换现有上游
