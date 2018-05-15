@@ -4,7 +4,7 @@
 
 - https://mirrors.shu.edu.cn/brew （仅HTTP/HTTPS访问，不支持git拉取）
 - https://mirrors.shu.edu.cn/mgit/brew (仅git访问)
-- https://git.shuosc.org/Homebrew/brew （均支持）
+- ~~https://git.shuosc.org/Homebrew/brew （均支持）~~
 
 ###  说明
 

@@ -4,7 +4,7 @@
 
 - https://mirrors.shu.edu.cn/CocoaPods （仅HTTP/HTTPS访问，不支持git拉取）
 - https://mirrors.shu.edu.cn/mgit/Specs (仅git访问)
-- https://git.shuosc.org/CocoaPods/Specs （均支持）
+- ~~https://git.shuosc.org/CocoaPods/Specs （均支持）~~
 
 
 ### 说明 
