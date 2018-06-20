@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shu.edu.cn/pypi
+https://mirrors.shu.edu.cn/pypi/
 
 ### 使用说明
 
@@ -16,7 +16,7 @@ index-url = https://mirrors.shu.edu.cn/pypi/web/simple
 format = columns
 ```
 
-原来的`pypi.shuosc.org`域名未来将不再提供使用。
+原来的`pypi.shuosc.org`域名将不再提供使用。
 
 
 ### 同步方式
