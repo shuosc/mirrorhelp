@@ -1,6 +1,6 @@
 # 上海大学开源镜像站源使用帮助文档
 
-本文档由[@zhonger](https://github.com/zhonger)、[@mustard](https://github.com/wxmustard)重新整理而成，有部分文档尚未完善。本文档大部分借鉴于[USTC@LUG](http://mirrors.ustc.edu.cn/help/) && [TUNA](https://mirrors.tuna.tsinghua.edu.cn/help/)，在此特别声明。
+本文档大部分借鉴于[USTC@LUG](http://mirrors.ustc.edu.cn/help/) && [TUNA](https://mirrors.tuna.tsinghua.edu.cn/help/)，在此特别声明。其余部分由开源社区运维小组及热心开源爱好者共同完善。
 
 ## 操作系统镜像
 
