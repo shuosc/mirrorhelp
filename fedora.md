@@ -22,11 +22,11 @@ x86_64, i386
 
 ### 使用说明
 
-将以下保存为 `fedora-ustc.repo` ：
+将以下保存为 `fedora-shu.repo` ：
 
 ```bash
   [fedora] 
-  name=Fedora $releasever - $basearch - ustc
+  name=Fedora $releasever - $basearch - shu
   failovermethod=priority 
   baseurl=https://mirrors.shu.edu.cn/fedora/releases/$releasever/Everything/$basearch/os/ 
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&arch=$basearch 
@@ -36,7 +36,7 @@ x86_64, i386
   gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
 
   [fedora-debuginfo] 
-  name=Fedora $releasever - $basearch - Debug - ustc
+  name=Fedora $releasever - $basearch - Debug - shu
   failovermethod=priority 
   baseurl=https://mirrors.shu.edu.cn/fedora/releases/$releasever/Everything/$basearch/debug/ 
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-debug-$releasever&arch=$basearch 
@@ -46,7 +46,7 @@ x86_64, i386
   gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
 
   [fedora-source] 
-  name=Fedora $releasever - Source - ustc
+  name=Fedora $releasever - Source - shu
   failovermethod=priority 
   baseurl=https://mirrors.shu.edu.cn/fedora/releases/$releasever/Everything/source/SRPMS/ 
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-source-$releasever&arch=$basearch 
@@ -56,11 +56,11 @@ x86_64, i386
   gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
 ```
 
-将以下保存为 `fedora-updates-ustc.repo` ：
+将以下保存为 `fedora-updates-shu.repo` ：
 
 ```bash
   [updates]
-  name=Fedora $releasever - $basearch - Updates - ustc
+  name=Fedora $releasever - $basearch - Updates - shu
   failovermethod=priority 
   baseurl=https://mirrors.shu.edu.cn/fedora/updates/$releasever/$basearch/ 
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&arch=$basearch 
@@ -69,7 +69,7 @@ x86_64, i386
   gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
 
   [updates-debuginfo] 
-  name=Fedora $releasever - $basearch - Updates - Debug -ustc
+  name=Fedora $releasever - $basearch - Updates - Debug -shu
   failovermethod=priority 
   baseurl=https://mirrors.shu.edu.cn/fedora/updates/$releasever/$basearch/debug/ 
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-debug-f$releasever&arch=$basearch 
@@ -78,7 +78,7 @@ x86_64, i386
   gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
 
   [updates-source] 
-  name=Fedora $releasever - Updates Source - ustc
+  name=Fedora $releasever - Updates Source - shu
   failovermethod=priority 
   baseurl=https://mirrors.shu.edu.cn/fedora/updates/$releasever/SRPMS/ 
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-source-f$releasever&arch=$basearch 
@@ -89,7 +89,7 @@ x86_64, i386
 
 先备份 `/etc/yum.repos.d/fedora.repo` 和 `/etc/yum.repos.d/fedora-updates.repo`
 
-将 `fedora-ustc.repo` 和 `fedora-updates-ustc.repo` 放入 `/etc/yum.repos.d/` 中。
+将 `fedora-shu.repo` 和 `fedora-updates-shu.repo` 放入 `/etc/yum.repos.d/` 中。
 
 运行 `sudo dnf makecache` 生成缓存。
 
