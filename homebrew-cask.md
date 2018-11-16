@@ -17,7 +17,7 @@ Homebrew-cask镜像
 
 ```bash
 # 替换现有上游
-cd "$(brew --repo)"
+cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask
 git remote set-url origin https://mirrors.shu.edu.cn/mgit/homebrew-cask
 ```
 
@@ -25,7 +25,7 @@ git remote set-url origin https://mirrors.shu.edu.cn/mgit/homebrew-cask
 
 ```bash
 # 替换现有上游
-cd "$(brew --repo)"
+cd "$(brew --repo)"/Library/Taps/homebrew/homebrew-cask
 git remote set-url origin https://git.shuosc.org/Homebrew/brew.git
 ```
 
