@@ -62,7 +62,7 @@ x86_64, i386
   [updates]
   name=Fedora $releasever - $basearch - Updates - shu
   failovermethod=priority 
-  baseurl=https://mirrors.shu.edu.cn/fedora/updates/$releasever/$basearch/ 
+  baseurl=https://mirrors.shu.edu.cn/fedora/updates/$releasever/Everything/$basearch/ 
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&arch=$basearch 
   enabled=1 
   gpgcheck=1 
