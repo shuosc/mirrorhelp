@@ -37,7 +37,7 @@
 - [Homebrew 源使用帮助](homebrew.html)
 - [CocoaPods 源使用帮助](cocoapods.html)
 - [Docker CE 源使用帮助](docker-ce.html)
-- [Docker Hub 加速镜像使用帮助](dockere.html)
+- [Docker Hub 加速镜像使用帮助](docker.html)
 - [Homebrew 源使用帮助](homebrew.html)
 - [Homebrew Bottles 源使用帮助](homebrew-bottles.html)
 - [Homebrew Core 源使用帮助](homebrew-core.html)
