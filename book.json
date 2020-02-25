@@ -11,7 +11,7 @@
     },
     "links": {
         "sidebar": {
-            "镜像站": "http://mirrors.shu.edu.cn"
+            "镜像站": "https://mirrors.shuosc.cn"
         }
     },
     "styles": {
@@ -68,10 +68,10 @@
             ]
         },
         "github": {
-            "url": "https://github.com/shuopensourcecommunity/mirrorhelp"
+            "url": "https://github.com/shuosc/mirrorhelp"
         },
         "github-buttons": {
-            "repo": "shuopensourcecommunity/mirrorhelp",
+            "repo": "shuosc/mirrorhelp",
             "types": [
                 "star"
             ],

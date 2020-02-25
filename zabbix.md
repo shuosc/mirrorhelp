@@ -7,8 +7,8 @@
 - 信任zabbix的GPG公钥并新增源文件zabbix.list：
 
 ```bash
-curl -fsSL https://mirrors.shu.edu.cn/zabbix/zabbix-official-repo.key | sudo apt-key add -
-echo "deb https://mirrors.shu.edu.cn/zabbix/zabbix/3.4/ubuntu/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/zabbix.list
+curl -fsSL https://mirrors.shuosc.cn/zabbix/zabbix-official-repo.key | sudo apt-key add -
+echo "deb https://mirrors.shuosc.cn/zabbix/zabbix/3.4/ubuntu/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/zabbix.list
 ```
 
 - 最后安装
@@ -25,10 +25,10 @@ sudo apt-get install zabbix-agent
 sudo tee -a /etc/yum.repos.d/zabbix.repo >> EOF
 [zabbix]
 name=zabbix - $basearch
-baseurl=https://mirrors.shu.edu.cn/zabbix/zabbix/3.4/rhel/7/$basearch/stable
+baseurl=https://mirrors.shuosc.cn/zabbix/zabbix/3.4/rhel/7/$basearch/stable
 enabled=1
 gpgcheck=1
-gpgkey=https://mirrors.shu.edu.cn/zabbix/RPM-GPG-KEY-ZABBIX
+gpgkey=https://mirrors.shuosc.cn/zabbix/RPM-GPG-KEY-ZABBIX
 EOF
 ```
 - 最后安装：

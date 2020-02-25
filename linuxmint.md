@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shu.edu.cn/linuxmint/
+https://mirrors.shuosc.cn/linuxmint/
 
 ### 说明
 
@@ -27,23 +27,23 @@ i386，amd64
 * 对于基于 Ubuntu 的原版，以 Linuxmint 18.2 为例：
 
 ```bash
-deb https://mirrors.shu.edu.cn/linuxmint/ sonya main upstream import backport 
-deb https://mirrors.shu.edu.cn/ubuntu/ xenial main restricted universe multiverse
-deb https://mirrors.shu.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
-deb https://mirrors.shu.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
-deb https://mirrors.shu.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+deb https://mirrors.shuosc.cn/linuxmint/ sonya main upstream import backport 
+deb https://mirrors.shuosc.cn/ubuntu/ xenial main restricted universe multiverse
+deb https://mirrors.shuosc.cn/ubuntu/ xenial-updates main restricted universe multiverse
+deb https://mirrors.shuosc.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb https://mirrors.shuosc.cn/ubuntu/ xenial-security main restricted universe multiverse
 deb http://archive.canonical.com/ubuntu/ xenial partner
 ```
 
 * 对于基于 Debian 的 LMDE，以 LMDE 2 为例：
 
 ```bash
-deb https://mirrors.shu.edu.cn/linuxmint/ betsy main upstream import
-deb https://mirrors.shu.edu.cn/debian jessie main contrib non-free
-deb https://mirrors.shu.edu.cn/debian jessie-updates main contrib non-free
-deb https://mirrors.shu.edu.cn/debian jessie-backports main contrib non-free
-deb https://mirrors.shu.edu.cn/debian-security/ jessie/updates main non-free contrib
-deb https://mirrors.shu.edu.cn/deb-multimedia/ jessie main non-free
+deb https://mirrors.shuosc.cn/linuxmint/ betsy main upstream import
+deb https://mirrors.shuosc.cn/debian jessie main contrib non-free
+deb https://mirrors.shuosc.cn/debian jessie-updates main contrib non-free
+deb https://mirrors.shuosc.cn/debian jessie-backports main contrib non-free
+deb https://mirrors.shuosc.cn/debian-security/ jessie/updates main non-free contrib
+deb https://mirrors.shuosc.cn/deb-multimedia/ jessie main non-free
 ```
  
 然后运行 `sudo apt-get update` 更新索引以生效。 

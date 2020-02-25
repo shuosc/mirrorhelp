@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shu.edu.cn/virtualbox
+https://mirrors.shuosc.cn/virtualbox
 
 ### 说明
 
@@ -22,15 +22,15 @@ Virtualbox 是一款开源虚拟机软件，原来是由Sun Microsystems 公司�
 
 对于 Debian 8 和 Ubuntu 16.04 及以上：
 ```bash
-wget -q https://mirrors.shu.edu.cn/virtualbox/debian/oracle_vbox_2016.asc -O- | sudo apt-key add -
+wget -q https://mirrors.shuosc.cn/virtualbox/debian/oracle_vbox_2016.asc -O- | sudo apt-key add -
 ```
 其他版本
 ```bash
-wget -q https://mirrors.shu.edu.cn/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
+wget -q https://mirrors.shuosc.cn/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
 ```
 再以 `Ubuntu 16.04 LTS` 为例，将文本框中内容写进`/etc/apt/sources.list.d/virtualbox.list`
 ```bash
-deb https://mirrors.shu.edu.cn/virtualbox/debian/ xenial contrib
+deb https://mirrors.shuosc.cn/virtualbox/debian/ xenial contrib
 ```
 安装 VirtualBox:
 ```bash
@@ -44,7 +44,7 @@ sudo apt-get install virtualbox
 ```bash
 [virtualbox]
 name=Virtualbox Repository
-baseurl=https://mirrors.shu.edu.cn/virtualbox/rpm/el$releasever/
+baseurl=https://mirrors.shuosc.cn/virtualbox/rpm/el$releasever/
 gpgcheck=0
 enabled=1
 ```

@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shu.edu.cn/node
+https://mirrors.shuosc.cn/node
 
 ### 说明
 

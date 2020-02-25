@@ -14,18 +14,18 @@ sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-pr
 ```
 信任**Docker**的**GPG**公钥：
 ```bash
-curl -fsSL https://mirrors.shu.edu.cn/docker-ce/linux/debian/gpg | sudo apt-key add -
+curl -fsSL https://mirrors.shuosc.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
 ```
 对于**amd64**架构的计算机，添加软件仓库：
 ```bash
 sudo add-apt-repository \ 
-        "deb [arch=amd64] https://mirrors.shu.edu.cn/docker-ce/linux/debian \
-        $(lsb_release -cs) \
-        stable"
+    "deb [arch=amd64] https://mirrors.shuosc.cn/docker-ce/linux/ubuntu \
+    $(lsb_release -cs) \
+    stable"
 ```
 如果你是树莓派或其他**ARM**架构计算机，请运行：
 ```bash
-echo "deb [arch=armhf] https://mirrors.shu.edu.cn/docker-ce/linux/debian \
+echo "deb [arch=armhf] https://mirrors.shuosc.cn/docker-ce/linux/debian \
     $(lsb_release -cs) stable" | \
 sudo tee /etc/apt/sources.list.d/docker.list
 ```
@@ -52,13 +52,13 @@ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 根据你的发行版下载`repo`文件： 
 如果你是**centos**：
 ```bash
-wget -O /etc/yum.repos.d/docker-ce.repo https://mirrors.shu.edu.cn/docker-ce/linux/centos/docker-ce.repo
-sudo sed -i 's+download.docker.com+mirrors.shu.edu.cn/docker-ce+' /etc/yum.repos.d/docker-ce.repo
+wget -O /etc/yum.repos.d/docker-ce.repo https://mirrors.shuosc.cn/docker-ce/linux/centos/docker-ce.repo
+sudo sed -i 's+download.docker.com+mirrors.shuosc.cn/docker-ce+' /etc/yum.repos.d/docker-ce.repo
 ```
 如果你是**fedora**：   
 ```bash
-wget -O /etc/yum.repos.d/docker-ce.repo https://mirrors.shu.edu.cn/docker-ce/linux/fedora/docker-ce.repo
-sudo sed -i 's+download.docker.com+mirrors.shu.edu.cn/docker-ce+' /etc/yum.repos.d/docker-ce.repo
+wget -O /etc/yum.repos.d/docker-ce.repo https://mirrors.shuosc.cn/docker-ce/linux/fedora/docker-ce.repo
+sudo sed -i 's+download.docker.com+mirrors.shuosc.cn/docker-ce+' /etc/yum.repos.d/docker-ce.repo
 ```
 最后安装：
 ```bash

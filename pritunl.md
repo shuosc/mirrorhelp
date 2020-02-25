@@ -6,13 +6,13 @@
 
 ```bash
 sudo tee -a /etc/apt/sources.list.d/pritunl.list << EOF
-deb https://mirrors.shu.edu.cn/pritunl/stable/apt xenial main
+deb https://mirrors.shuosc.cn/pritunl/stable/apt xenial main
 EOF
 
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv 7568D9BB55FF9E5287D586017AE645C0CF8E292A
 
 sudo tee -a /etc/apt/sources.list.d/mongodb.list << EOF
-deb https://mirrors.shu.edu.cn/mongodb/apt/ubuntu xenial/mongodb-org/3.4 multiverse
+deb https://mirrors.shuosc.cn/mongodb/apt/ubuntu xenial/mongodb-org/3.4 multiverse
 EOF
 
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv 0C49F3730359A14518585931BC711F9BA15703C6

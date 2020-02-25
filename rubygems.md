@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shu.edu.cn/rubygems
+https://mirrors.shuosc.cn/rubygems
 
 ### 说明
 
@@ -15,13 +15,13 @@ Rubygems仓库镜像
 ```bash
 gem sources  #列出默认源
 gem sources --remove https://rubygems.org/  #移除默认源
-gem sources -a https://mirrors.shu.edu.cn/rubygems/  #添加上大源
+gem sources -a https://mirrors.shuosc.cn/rubygems/  #添加上大源
 ```
 
 - 针对使用 Gemfile 和 Bundle 的项目
 
 ```bash
-bundle config mirror.https://rubygems.org https://mirrors.shu.edu.cn/rubygems/
+bundle config mirror.https://rubygems.org https://mirrors.shuosc.cn/rubygems/
 ```
 
 ### 相关链接

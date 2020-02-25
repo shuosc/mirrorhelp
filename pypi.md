@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shu.edu.cn/pypi/
+https://mirrors.shuosc.cn/pypi/
 
 ### 使用说明
 
@@ -12,7 +12,7 @@ https://mirrors.shu.edu.cn/pypi/
 
 ```bash
 [global]
-index-url = https://mirrors.shu.edu.cn/pypi/web/simple
+index-url = https://mirrors.shuosc.cn/pypi/web/simple
 format = columns
 ```
 

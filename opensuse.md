@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shu.edu.cn/opensuse/
+https://mirrors.shuosc.cn/opensuse/
 
 ### 说明
 
@@ -28,10 +28,10 @@ sudo zypper mr -da
 添加上大镜像源，以 **openSUSE Leap 42.2** 为例；
 
 ```bash
-sudo zypper ar -fc https://mirrors.shu.edu.cn/opensuse/distribution/leap/42.2/repo/oss USTC:42.2:OSS
-sudo zypper ar -fc https://mirrors.shu.edu.cn//opensuse/distribution/leap/42.2/repo/non-oss USTC:42.2:NON-OSS
-sudo zypper ar -fc https://mirrors.shu.edu.cn//opensuse/update/leap/42.2/oss USTC:42.2:UPDATE-OSS
-sudo zypper ar -fc https://mirrors.shu.edu.cn//opensuse/update/leap/42.2/non-oss USTC:42.2:UPDATE-NON-OSS
+sudo zypper ar -fc https://mirrors.shuosc.cn/opensuse/distribution/leap/42.2/repo/oss USTC:42.2:OSS
+sudo zypper ar -fc https://mirrors.shuosc.cn//opensuse/distribution/leap/42.2/repo/non-oss USTC:42.2:NON-OSS
+sudo zypper ar -fc https://mirrors.shuosc.cn//opensuse/update/leap/42.2/oss USTC:42.2:UPDATE-OSS
+sudo zypper ar -fc https://mirrors.shuosc.cn//opensuse/update/leap/42.2/non-oss USTC:42.2:UPDATE-NON-OSS
 ```
 
 命令中最后一个参数为每一个源指定了一个 **alias （别称**），可以根据个人喜好更改。

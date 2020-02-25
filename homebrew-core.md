@@ -2,9 +2,9 @@
 
 ### 地址 
 
-- https://mirrors.shu.edu.cn/homebrew-core （仅HTTP/HTTPS访问，不支持git拉取）
-- https://mirrors.shu.edu.cn/mgit/homebrew-core (仅git访问)
-- ~~https://git.shuosc.org/Homebrew/homwbrew-core （均支持）~~
+- https://mirrors.shuosc.cn/homebrew-core （仅HTTP/HTTPS访问，不支持git拉取）
+- https://mirrors.shuosc.cn/mgit/homebrew-core (仅git访问)
+- https://git.lep.site/Homebrew/homwbrew-core （均支持）
 
 ### 说明 
 
@@ -17,15 +17,15 @@ Homebrew-core镜像
 ```bash
 # 替换现有上游
 cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-git remote set-url origin https://mirrors.shu.edu.cn/mgit/homebrew-core
+git remote set-url origin https://mirrors.shuosc.cn/mgit/homebrew-core
 ```
 
-#### 方式二：使用 Gitlab 仓库镜像 (已废弃)
+#### 方式二：使用 Gitlab 仓库镜像 
 
 ```bash
 # 替换现有上游
 cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-git remote set-url origin https://git.shuosc.org/Homebrew/brew.git
+git remote set-url origin https://git.lep.site/Homebrew/brew.git
 ```
 
 #### 重置为官方上游

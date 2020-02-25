@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shu.edu.cn/msys2
+https://mirrors.shuosc.cn/msys2
 
 ### 说明
 
@@ -19,15 +19,15 @@ https://mirrors.shu.edu.cn/msys2
 
 编辑 `/etc/pacman.d/mirrorlist.mingw32` ，在文件开头添加：
 ```bash
-Server = https://mirrors.shu.edu.cn/msys2/mingw/i686
+Server = https://mirrors.shuosc.cn/msys2/mingw/i686
 ```
 编辑 `/etc/pacman.d/mirrorlist.mingw64` ，在文件开头添加：
 ```bash
-Server = https://mirrors.shu.edu.cn/msys2/mingw/x86_64
+Server = https://mirrors.shuosc.cn/msys2/mingw/x86_64
 ```
 编辑 `/etc/pacman.d/mirrorlist.msys` ，在文件开头添加：
 ```bash
-Server = https://mirrors.shu.edu.cn/msys2/msys/$arch
+Server = https://mirrors.shuosc.cn/msys2/msys/$arch
 ```
 然后执行 `pacman -Sy` 刷新软件包数据即可。
 

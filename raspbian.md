@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shu.edu.cn/raspbian
+https://mirrors.shuosc.cn/raspbian
 
 ### 说明
 
@@ -22,8 +22,8 @@ pi@raspberrypi ~ $ sudo nano /etc/apt/sources.list
 
 以`jessie版本`为例：
 ```bash
-deb https://mirrors.shu.edu.cn/raspbian/raspbian/ jessie main non-free contrib
-deb-src https://mirrors.shu.edu.cn/raspbian/raspbian/ jessie main non-free contrib
+deb https://mirrors.shuosc.cn/raspbian/raspbian/ jessie main non-free contrib
+deb-src https://mirrors.shuosc.cn/raspbian/raspbian/ jessie main non-free contrib
 ```
 
 > 注意：网址末尾的`raspbian`重复两次是必须的。因为Raspbian的仓库中除了APT软件源还包含其他代码。APT软件源不在仓库的根目录，而在raspbian/子目录下。

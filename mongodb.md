@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shu.edu.cn/mongodb
+https://mirrors.shuosc.cn/mongodb
 
 ### 说明
 
@@ -14,7 +14,7 @@ https://mirrors.shu.edu.cn/mongodb
 
 ```bash
 sudo tee -a /etc/apt/sources.list.d/mongodb.list << EOF
-deb https://mirrors.shu.edu.cn/mongodb/apt/ubuntu xenial/mongodb-org/3.4 multiverse
+deb https://mirrors.shuosc.cn/mongodb/apt/ubuntu xenial/mongodb-org/3.4 multiverse
 EOF
 
 sudo apt-key adv --keyserver hkp://pgp.mit.edu --recv 0C49F3730359A14518585931BC711F9BA15703C6
@@ -28,7 +28,7 @@ sudo apt update
 sudo tee -a /etc/yum.repos.d/mongodb.repo << EOF
 [mongodb]
 name=Mongodb Stable Repository
-baseurl=https://mirrors.shu.edu.cn/mongodb/yum/redhat/7/mongodb-org/3.4/x86_64/
+baseurl=https://mirrors.shuosc.cn/mongodb/yum/redhat/7/mongodb-org/3.4/x86_64/
 gpgcheck=0
 enabled=1
 EOF

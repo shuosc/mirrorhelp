@@ -2,9 +2,9 @@
 
 ###  地址
 
-- https://mirrors.shu.edu.cn/CocoaPods （仅HTTP/HTTPS访问，不支持git拉取）
-- https://mirrors.shu.edu.cn/mgit/Specs (仅git访问)
-- ~~https://git.shuosc.org/CocoaPods/Specs （均支持）~~
+- https://mirrors.shuosc.cn/CocoaPods （仅HTTP/HTTPS访问，不支持git拉取）
+- https://mirrors.shuosc.cn/mgit/Specs (仅git访问)
+- https://git.lep.site/CocoaPods/Specs （均支持）
 
 
 ### 说明 
@@ -19,10 +19,10 @@ CocoaPods/Specs 镜像
 # 替换现有上游
 cd ~/.cocoapods/repos
 pod repo remove master
-git clone https://mirrors.shu.edu.cn/mgit/Specs master
+git clone https://mirrors.shuosc.cn/mgit/Specs master
 
 # 最后进入自己的工程，在自己工程的podFile第一行加上
-source 'https://mirrors.shu.edu.cn/mgit/Specs'
+source 'https://mirrors.shuosc.cn/mgit/Specs'
 ```
 
 #### 方式二：使用 Gitlab 仓库镜像 (已废弃)

@@ -2,7 +2,7 @@
 
 ###  地址 
 
-https://mirrors.shu.edu.cn/deb-multimedia/
+https://mirrors.shuosc.cn/deb-multimedia/
 
 ### 说明 
 
@@ -25,14 +25,14 @@ https://mirrors.shu.edu.cn/deb-multimedia/
 
 以 **Jessie** 为例，在`/etc/apt/sources.list` 中加入
 
-    deb http://mirrors.shu.edu.cn/debian-multimedia/ jessie main non-free
-    # deb-src http://mirrors.shu.edu.cn/debian-multimedia/ jessie main non-free
-    deb http://mirrors.shu.edu.cn/debian-multimedia/ jessie-backports main
-    # deb-src http://mirrors.shu.edu.cn/debian-multimedia/ jessie-backports main
+    deb http://mirrors.shuosc.cn/debian-multimedia/ jessie main non-free
+    # deb-src http://mirrors.shuosc.cn/debian-multimedia/ jessie main non-free
+    deb http://mirrors.shuosc.cn/debian-multimedia/ jessie-backports main
+    # deb-src http://mirrors.shuosc.cn/debian-multimedia/ jessie-backports main
 
 更改完`sources.list` 文件后请导入 `deb-multimedia-keyring`
 
-    wget https://mirrors.shu.edu.cn/debian-multimedia/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
+    wget https://mirrors.shuosc.cn/debian-multimedia/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
     sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 
 然后请运行 ``sudo apt-get update`` 更新索引以生效。

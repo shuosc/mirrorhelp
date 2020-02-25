@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shu.edu.cn/centos/
+https://mirrors.shuosc.cn/centos/
 
 ### 说明 
 
@@ -45,53 +45,53 @@ mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 #
 
 [base]
-name=CentOS-$releasever - Base - mirrors.shu.edu.cn
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/os/$basearch/
+name=CentOS-$releasever - Base - mirrors.shuosc.cn
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/os/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
 gpgcheck=1
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-5
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-5
 
 #released updates 
 [updates]
-name=CentOS-$releasever - Updates - mirrors.shu.edu.cn
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/updates/$basearch/
+name=CentOS-$releasever - Updates - mirrors.shuosc.cn
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/updates/$basearch/
 #mirrorlist=https://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
 gpgcheck=1
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-5
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-5
 
 #additional packages that may be useful
 [extras]
-name=CentOS-$releasever - Extras - mirrors.shu.edu.cn
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/extras/$basearch/
+name=CentOS-$releasever - Extras - mirrors.shuosc.cn
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/extras/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
 gpgcheck=1
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-5
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-5
 
 #packages used/produced in the build but not released
 [addons]
-name=CentOS-$releasever - Addons - mirrors.shu.edu.cn
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/addons/$basearch/
+name=CentOS-$releasever - Addons - mirrors.shuosc.cn
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/addons/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=addons
 gpgcheck=1
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-5
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-5
 
 #additional packages that extend functionality of existing packages
 [centosplus]
-name=CentOS-$releasever - Plus - mirrors.shu.edu.cn
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/centosplus/$basearch/
+name=CentOS-$releasever - Plus - mirrors.shuosc.cn
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/centosplus/$basearch/
 #mirrorlist=https://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=centosplus
 gpgcheck=1
 enabled=0
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-5
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-5
 
 #contrib - packages by Centos Users
 [contrib]
-name=CentOS-$releasever - Contrib - mirrors.shu.edu.cn
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/contrib/$basearch/
+name=CentOS-$releasever - Contrib - mirrors.shuosc.cn
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/contrib/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=contrib
 gpgcheck=1
 enabled=0
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-5
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-5
 ```
 
 这是`CentOS 6`的:
@@ -110,45 +110,45 @@ gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-5
 #
 
 [base]
-name=CentOS-$releasever - Base - mirrors.shu.edu.cn
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/os/$basearch/
+name=CentOS-$releasever - Base - mirrors.shuosc.cn
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/os/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
 gpgcheck=1
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-6
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-6
 
 #released updates 
 [updates]
-name=CentOS-$releasever - Updates - mirrors.shu.edu.cn
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/updates/$basearch/
+name=CentOS-$releasever - Updates - mirrors.shuosc.cn
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/updates/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
 gpgcheck=1
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-6
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-6
 
 #additional packages that may be useful
 [extras]
-name=CentOS-$releasever - Extras - mirrors.shu.edu.cn
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/extras/$basearch/
+name=CentOS-$releasever - Extras - mirrors.shuosc.cn
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/extras/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
 gpgcheck=1
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-6
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-6
 
 #additional packages that extend functionality of existing packages
 [centosplus]
-name=CentOS-$releasever - Plus - mirrors.shu.edu.cn
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/centosplus/$basearch/
+name=CentOS-$releasever - Plus - mirrors.shuosc.cn
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/centosplus/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=centosplus
 gpgcheck=1
 enabled=0
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-6
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-6
 
 #contrib - packages by Centos Users
 [contrib]
-name=CentOS-$releasever - Contrib - mirrors.shu.edu.cn
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/contrib/$basearch/
+name=CentOS-$releasever - Contrib - mirrors.shuosc.cn
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/contrib/$basearch/
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=contrib
 gpgcheck=1
 enabled=0
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-6
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-6
 ```
 
 这是`CentOS 7`的:
@@ -170,34 +170,34 @@ gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-6
 [base]
 name=CentOS-$releasever - Base
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/os/$basearch/
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/os/$basearch/
 gpgcheck=1
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-7
 
 #released updates
 [updates]
 name=CentOS-$releasever - Updates
 # mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/updates/$basearch/
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/updates/$basearch/
 gpgcheck=1
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-7
 
 #additional packages that may be useful
 [extras]
 name=CentOS-$releasever - Extras
 # mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/extras/$basearch/
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/extras/$basearch/
 gpgcheck=1
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-7
 
 #additional packages that extend functionality of existing packages
 [centosplus]
 name=CentOS-$releasever - Plus
 # mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=centosplus
-baseurl=https://mirrors.shu.edu.cn/centos/$releasever/centosplus/$basearch/
+baseurl=https://mirrors.shuosc.cn/centos/$releasever/centosplus/$basearch/
 gpgcheck=1
 enabled=0
-gpgkey=https://mirrors.shu.edu.cn/centos/RPM-GPG-KEY-CentOS-7
+gpgkey=https://mirrors.shuosc.cn/centos/RPM-GPG-KEY-CentOS-7
 ```
 
 运行`yum makecache`生成缓存。

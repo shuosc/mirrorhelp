@@ -1,0 +1,55 @@
+{
+  "name": "mirrorhelp",
+  "version": "1.0.0",
+  "description": "本文档大部分借鉴于[USTC@LUG](http://mirrors.ustc.edu.cn/help/) && [TUNA](https://mirrors.tuna.tsinghua.edu.cn/help/)，在此特别声明。其余部分由开源社区运维小组及热心开源爱好者共同完善。",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-plugin-3-ba": "^0.9.0",
+    "gitbook-plugin-ace": "^0.3.2",
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-alerts": "^0.2.0",
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-chart": "^0.2.2",
+    "gitbook-plugin-copy-code-button": "0.0.2",
+    "gitbook-plugin-edit-link": "^2.0.2",
+    "gitbook-plugin-emphasize": "^1.1.0",
+    "gitbook-plugin-expandable-chapters-small": "^0.1.7",
+    "gitbook-plugin-favicon": "0.0.2",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-github-buttons": "2.1.0",
+    "gitbook-plugin-graph": "^0.1.0",
+    "gitbook-plugin-include-codeblock": "^3.2.2",
+    "gitbook-plugin-include-csv": "^0.2.0",
+    "gitbook-plugin-katex": "^1.1.4",
+    "gitbook-plugin-klipse": "^1.2.0",
+    "gitbook-plugin-local-video": "^1.0.1",
+    "gitbook-plugin-mermaid-gb3": "^2.1.0",
+    "gitbook-plugin-musicxml": "^1.0.2",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-prism-themes": "0.0.2",
+    "gitbook-plugin-puml": "^1.0.1",
+    "gitbook-plugin-search-plus": "^1.0.4-alpha-3",
+    "gitbook-plugin-sectionx": "^3.1.0",
+    "gitbook-plugin-sharing-plus": "0.0.2",
+    "gitbook-plugin-simple-page-toc": "^0.1.2",
+    "gitbook-plugin-splitter": "0.0.8",
+    "gitbook-plugin-tbfed-pagefooter": "0.0.1",
+    "gitbook-plugin-terminal": "^0.3.2",
+    "gitbook-plugin-todo": "^0.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuosc/mirrorhelp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuosc/mirrorhelp/issues"
+  },
+  "homepage": "https://github.com/shuosc/mirrorhelp#readme"
+}

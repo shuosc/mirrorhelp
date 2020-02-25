@@ -2,7 +2,7 @@
 
 ### 地址
 
-https://mirrors.shu.edu.cn/ruby/
+https://mirrors.shuosc.cn/ruby/
 
 ### 说明
 
@@ -28,7 +28,7 @@ tee -a ~/.bashrc << EOF
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
 EOF
 
-echo "ruby_url=https://mirrors.shu.edu.cn/ruby/ruby" > ~/.rvm/user/db
+echo "ruby_url=https://mirrors.shuosc.cn/ruby/ruby" > ~/.rvm/user/db
 
 rvm list known #查看ruby源中支持的版本
 ```
