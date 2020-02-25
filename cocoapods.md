@@ -31,10 +31,10 @@ source 'https://mirrors.shuosc.cn/mgit/Specs'
 # 替换现有上游
 cd ~/.cocoapods/repos
 pod repo remove master
-git clone https://git.shuosc.org/CocoaPods/Specs master
+git clone https://git.lep.site/CocoaPods/Specs master
 
 # 最后进入自己的工程，在自己工程的podFile第一行加上
-sources 'https://git.shuosc.org/CocoaPods/Specs'
+sources 'https://git.lep.site/CocoaPods/Specs'
 ```
 
 #### 重置为官方上游
