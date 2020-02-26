@@ -2,7 +2,6 @@ image: node:latest
 
 pages:
   before_script:
-    - whoami && cd ~ && pwd
     - mkdir -p ~/.ssh
     - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_rsa
     - chmod 700 ~/.ssh
