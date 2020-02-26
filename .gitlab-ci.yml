@@ -5,7 +5,7 @@ pages:
     - mkdir -p ~/.ssh
     - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_rsa
     - echo "$KNOWN_HOSTS" >> ~/.ssh/known_hosts
-    - chmod 700 ~/.ssh
+    - chmod -R 700 ~/.ssh
     - npm install -g gitbook-cli
     - test -e package.json && npm install
   script:
