@@ -2,13 +2,18 @@ image: node:latest
 
 pages:
   before_script:
-    - mkdir -p /home/gitlab-runner/.ssh
-    - echo $SSH_PRIVATE_KEY_DEV >> /home/gitlab-runner/.ssh/id_rsa
-    - chmod -R 700 /home/gitlab-runner/.ssh
+    - whoami && cd ~ && pwd
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo "$KNOWN_HOSTS" >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
     - npm install -g gitbook-cli
     - test -e package.json && npm install
   script:
     - gitbook build
+    - whoami
     - scp -P 26 -r _book/* $DEPLOY_USER@$DEPLOY_SERVER_DEV:$WEB_DIR 
   artifacts:
     paths:
