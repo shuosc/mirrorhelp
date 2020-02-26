@@ -1,12 +1,11 @@
-image: node:latest
+image: shuosc/node:gitbook
 
 pages:
   before_script:
     - mkdir -p ~/.ssh
-    - echo $SSH_PRIVATE_KEY >> ~/.ssh/id_rsa
+    - echo $SSH_PRIVATE_KEY_DEV >> ~/.ssh/id_rsa
     - echo $KNOWN_HOSTS >> ~/.ssh/known_hosts
     - chmod -R 700 ~/.ssh
-    - npm install -g gitbook-cli
     - test -e package.json && npm install
   script:
     - gitbook build
