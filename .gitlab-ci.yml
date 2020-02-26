@@ -3,9 +3,8 @@ image: node:latest
 pages:
   before_script:
     - whoami && cd ~ && pwd
-    - eval $(ssh-agent -s)
-    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
     - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/id_rsa
     - chmod 700 ~/.ssh
     - echo "$KNOWN_HOSTS" >> ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
