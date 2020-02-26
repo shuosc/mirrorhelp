@@ -2,8 +2,9 @@ image: node:latest
 
 pages:
   before_script:
-    - mkdir ~/.ssh
-    - echo $SSH_PRIVATE_KEY_DEV >> ~/.ssh/id_rsa
+    - mkdir -p /home/gitlab-runner/.ssh
+    - echo $SSH_PRIVATE_KEY_DEV >> /home/gitlab-runner/.ssh/id_rsa
+    - chmod -R 700 /home/gitlab-runner/.ssh
     - npm install -g gitbook-cli
     - test -e package.json && npm install
   script:
