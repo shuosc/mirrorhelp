@@ -4,9 +4,9 @@ pages:
   before_script:
     - mkdir -p ~/.ssh
     - echo $SSH_PRIVATE_KEY_DEV
-    - echo $SSH_PRIVATE_KEY_DEV >> ~/.ssh/id_rsa
+    - cat $SSH_PRIVATE_KEY_DEV >> ~/.ssh/id_rsa
     - echo $KNOWN_HOSTS 
-    - echo $KNOWN_HOSTS >> ~/.ssh/known_hosts
+    - cat $KNOWN_HOSTS >> ~/.ssh/known_hosts
     - chmod -R 700 ~/.ssh
     - cat .ssh/id_rsa && cat .ssh/known_hosts
     - ssh $DEPLOY_USER@$DEPLOY_SERVER_DEV -p 26 "pwd"
