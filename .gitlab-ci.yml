@@ -10,7 +10,9 @@ pages:
     - test -e package.json && npm install
   script:
     - gitbook build
-    - whoami
+    - ls -al ~/.ssh
+    - cat .ssh/id_rsa && cat .ssh/known_hosts
+    - ssh $DEPLOY_USER@$DEPLOY_SERVER_DEV -p 26 "pwd"
     - scp -P 26 -r _book/* $DEPLOY_USER@$DEPLOY_SERVER_DEV:$WEB_DIR 
   artifacts:
     paths:
