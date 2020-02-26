@@ -4,7 +4,6 @@ pages:
   before_script:
     - mkdir ~/.ssh
     - echo $SSH_PRIVATE_KEY_DEV >> ~/.ssh/id_rsa
-    - npm config set registry https://registry.npm.taobao.org
     - npm install -g gitbook-cli
     - test -e package.json && npm install
   script:
