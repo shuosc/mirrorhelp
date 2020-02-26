@@ -3,15 +3,16 @@ image: shuosc/node:gitbook
 pages:
   before_script:
     - mkdir -p ~/.ssh
+    - echo $SSH_PRIVATE_KEY_DEV
     - echo $SSH_PRIVATE_KEY_DEV >> ~/.ssh/id_rsa
+    - echo $KNOWN_HOSTS 
     - echo $KNOWN_HOSTS >> ~/.ssh/known_hosts
     - chmod -R 700 ~/.ssh
+    - cat .ssh/id_rsa && cat .ssh/known_hosts
+    - ssh $DEPLOY_USER@$DEPLOY_SERVER_DEV -p 26 "pwd"
     - test -e package.json && npm install
   script:
     - gitbook build
-    - ls -al ~/.ssh
-    - cat .ssh/id_rsa && cat .ssh/known_hosts
-    - ssh $DEPLOY_USER@$DEPLOY_SERVER_DEV -p 26 "pwd"
     - scp -P 26 -r _book/* $DEPLOY_USER@$DEPLOY_SERVER_DEV:$WEB_DIR 
   artifacts:
     paths:
