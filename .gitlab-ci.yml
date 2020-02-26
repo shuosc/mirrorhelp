@@ -9,8 +9,8 @@ pages:
     - test -e package.json && npm install
   script:
     - gitbook build
-    - ssh $DEPLOY_USER@$DEPLOY_SERVER_DEV -p 26 "rm -rf $WEB_DIR/*"
-    - scp -P 26 -r _book/* $DEPLOY_USER@$DEPLOY_SERVER_DEV:$WEB_DIR 
+    - ssh $DEPLOY_USER@$DEPLOY_SERVER_DEV -p $DEPLOY_PORT "rm -rf $WEB_DIR/*"
+    - scp -P $DEPLOY_PORT -r _book/* $DEPLOY_USER@$DEPLOY_SERVER_DEV:$WEB_DIR 
   artifacts:
     paths:
       - _book
